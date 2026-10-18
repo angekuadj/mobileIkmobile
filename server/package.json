@@ -1,0 +1,12 @@
+{
+  "name": "ikprono-mobile-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.cjs",
+    "dev": "node --watch index.cjs"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}

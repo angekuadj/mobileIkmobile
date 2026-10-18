@@ -1,0 +1,11 @@
+node_modules/
+.expo/
+dist/
+web-build/
+.coupon-data/
+.venv/
+android/
+.env
+.env.*
+!.env.example
+*.tsbuildinfo

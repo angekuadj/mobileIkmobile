@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "IKProno",
+    "slug": "ikprono",
+    "version": "1.0.0",
+    "newArchEnabled": true,
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "icon": "./assets/icon.png",
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ikprono.app",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "fetch"
+        ]
+      }
+    },
+    "android": {
+      "package": "com.ikprono.app",
+      "usesCleartextTraffic": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#11152b"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#a947c8",
+          "defaultChannel": "ikprono-match-alerts-v2",
+          "sounds": [
+            "./assets/ikprono_notification.wav"
+          ]
+        }
+      ],
+      "expo-background-fetch"
+    ],
+    "scheme": "ikprono"
+  }
+}
